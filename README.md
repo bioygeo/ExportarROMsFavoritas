@@ -1,5 +1,4 @@
-# ExportarROMsFavoritas
-# Copiar Favoritos - RetroGaming
+# Exportar ROMs Favoritas
 
 Este proyecto contiene scripts para copiar automáticamente tus ROMs favoritas desde las carpetas de sistemas, con sus imágenes asociadas, a una carpeta de exportación.
 Por defecto ignora la carpeta "ports".
@@ -8,7 +7,7 @@ Hay una versión **Linux** y otra **Windows** (PowerShell).
 
 ---
 
-## Scripts
+# Scripts:
 
 - `copiar_favoritos.sh` → Script Bash para Linux
 - `copiar_favoritos.ps1` → Script PowerShell para Windows
@@ -31,7 +30,7 @@ Ejecuta PowerShell:
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 .\copiar_favoritos.ps1
 
-# Personalización
+## Personalización
 
 Cambiar carpeta de favoritos: $FAVPATH (Linux) / $FavPath (Windows)
 
