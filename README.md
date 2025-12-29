@@ -23,9 +23,9 @@ Hay una versión **Linux** y otra **Windows** (PowerShell).
 
 ## Windows
 
-Coloca copiar_favoritos.ps1 en la carpeta raíz de tus sistemas.
+- Coloca `copiar_favoritos.ps1` en la carpeta raíz de tus sistemas.
 
-Ejecuta PowerShell:
+- Ejecuta PowerShell:
 
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 .\copiar_favoritos.ps1
